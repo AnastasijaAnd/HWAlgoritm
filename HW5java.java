@@ -47,7 +47,7 @@ public class HW5java {
                     List<String> oldVal = map.get(wordSize);
                     oldVal.add(item);
                     map.put(wordSize, oldVal);
-                }//если есть, то в else{continue;}
+                }
             }else{
                 List<String> newVal = new ArrayList<>();
                 newVal.add(item);
